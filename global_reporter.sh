@@ -8,7 +8,7 @@ MKSHELL="/bin/bash"
 	echo "prot_fna_error, $(ls *-prot.fna.fetcherror | wc -l)" > global_num_protfnaerror.tmp
 #juntar los archivos
 	cat *.tmp >> global_report.csv
-#Poner header a la tabla
+#Poner header a la tabla y borrar los archivos temporales
 	sed -i '1i output_type, num' global_report.csv && rm *.tmp
 
 
