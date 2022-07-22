@@ -1,8 +1,5 @@
 MKSHELL="/bin/bash"
 
-#target: OPTIONS: prereq
-# option Q=QUIET does not show all messages
-
 #Contar cuantos outputs de cada tipo hay
 	echo "fasta, $(ls *.fasta | wc -l)" > global_num_fasta.tmp  #busca cuantas hay para cada tipo de output
 	echo "prot_faa, $(ls *-prot.faa | wc -l)" > global_num_protfaa.tmp
