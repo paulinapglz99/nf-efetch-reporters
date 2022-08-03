@@ -1,0 +1,6 @@
+output_type, num
+fasta, 10
+prot_faa, 7
+prot_faa_error, 3
+prot_fna, 7
+prot_fna_error, 3
